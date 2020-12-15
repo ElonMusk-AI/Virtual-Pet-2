@@ -70,6 +70,7 @@ function feedDog(){
   database.ref('/').update({
     feedTime:hour()
   })
+  dog.addImage(dogHappyImage);
 }
 
 function foodStockText(){
